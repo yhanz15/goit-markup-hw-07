@@ -353,6 +353,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-social-item {
   width: 40px;
@@ -362,7 +363,6 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-social-icon {
@@ -631,7 +631,7 @@ img {
   border-radius: 50%;
   cursor: pointer;
 
-  transition: cbackground-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -663,7 +663,7 @@ img {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.project-cover-wrap {
+/* .project-cover-wrap {
   position: relative;
   overflow: hidden;
 }
@@ -682,4 +682,4 @@ img {
   letter-spacing: 0.32px;
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
