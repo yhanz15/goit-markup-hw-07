@@ -134,6 +134,8 @@ img {
 .link-head:focus {
   color: var(--ocean, #404bbf);
 }
+
+.link-head-port::after,
 .link-head::after {
   content: '';
   border-radius: 2px;
@@ -149,6 +151,8 @@ img {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.link-head-port:hover::after,
+.link-head-port:focus::after,
 .link-head:hover::after,
 .link-head:focus::after {
   border: 2px solid var(--ocean);
