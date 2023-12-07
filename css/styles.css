@@ -618,7 +618,7 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  min-width: 408px;
+  width: 408px;
   min-height: 584px;
   background-color: var(--dairy, #fcfcfc);
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
