@@ -159,7 +159,7 @@ img {
   background-color: var(--ocean);
   width: 100%;
 }
-.menu-active::after {
+/* .menu-active::after {
   content: '';
   border: 2px solid var(--ocean);
   border-radius: 2px;
@@ -169,7 +169,7 @@ img {
   position: absolute;
   left: 0;
   bottom: -1px;
-}
+} */
 .address-head {
   color: var(--NAVY-BLUE, #2e2f42);
   line-height: 1.5;
