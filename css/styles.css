@@ -606,8 +606,8 @@ img {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.linkin:hover .project-cover-text,
-.linkin:focus .project-cover-text {
+.linkin:hover .port-cover-text,
+.linkin:focus .port-cover-text {
   transform: translateY(0);
 }
 
@@ -680,12 +680,12 @@ img {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.project-cover-wrap {
+.port-cover-wrap {
   position: relative;
   overflow: hidden;
 }
 
-.project-cover-text {
+.port-cover-text {
   position: absolute;
   top: 0;
   height: 100%;
