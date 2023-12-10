@@ -38,6 +38,7 @@ ol {
 /* Main Page */
 
 body {
+  width: 1440px;
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -603,6 +604,7 @@ img {
 }
 .modal {
   margin-top: -28px;
+  margin-left: -120px;
   position: absolute;
   left: 50%;
   top: 50%;
