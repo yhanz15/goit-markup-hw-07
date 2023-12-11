@@ -502,7 +502,7 @@ img {
 }
 
 .footer-socials-svg {
-  fill: currentColor;
+  fill: var(--white);
 }
 
 /*portfolio*/
