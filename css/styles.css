@@ -622,9 +622,9 @@ img {
   margin-top: -28px;
   margin-left: -120px;
 }
-/* .backdrop.is-hidden .modal {
+.backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0);
-} */
+}
 
 .modal-close {
   position: absolute;
