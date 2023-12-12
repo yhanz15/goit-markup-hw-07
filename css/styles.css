@@ -550,7 +550,7 @@ img {
   display: block;
   color: var(--white);
   font-weight: 500;
-  /* margin-bottom: 16px; */
+  margin-bottom: 16px;
 }
 .footer-form-input {
   color: var(--white);
