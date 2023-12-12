@@ -532,11 +532,8 @@ img {
 .footer-socials-svg {
   fill: var(--white);
 }
-.row {
-  display: flex;
-  flex-direction: row;
-}
-.footer-container form {
+
+.footer-container-add form {
   display: flex;
   align-items: flex-end;
 }
@@ -550,7 +547,7 @@ img {
   display: block;
   color: var(--white);
   font-weight: 500;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 }
 .footer-form-input {
   color: var(--white);
