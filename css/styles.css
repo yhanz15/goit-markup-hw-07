@@ -756,7 +756,10 @@ img {
   color: var(--navyblue);
   text-align: center;
   font-weight: 500;
-  margin-bottom: 34px;
+  margin-bottom: 16px;
+}
+.postioning {
+  margin-bottom: 8px;
 }
 .form-container {
   display: flex;
@@ -799,7 +802,7 @@ img {
 }
 .form-input {
   display: block;
-  width: 360px;
+  width: 100%;
   height: 40px;
   padding-top: 11px;
   padding-bottom: 11px;
@@ -808,6 +811,7 @@ img {
   font-size: 14px;
   fill: currentColor;
   border-radius: 4px;
+  background-color: transparent;
   border: 1px solid rgba(46, 47, 66, 0.4);
   transition-property: border;
   transition-duration: 250ms;
@@ -841,7 +845,7 @@ img {
 }
 .checkbox-icon:hover,
 .checkbox-icon:focus {
-  border: 1px solid var(--iris);
+  border: var(--iris);
 }
 .check-mark {
   display: block;
@@ -852,12 +856,14 @@ img {
   cursor: pointer;
 }
 .form-label {
-  position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 4px;
   font-size: 12px;
-  line-height: 1.166;
-  letter-spacing: 0.01em;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
   color: var(--lightslate);
+}
+.naming {
+  position: relative;
 }
 .form-label-textarea {
   position: relative;
