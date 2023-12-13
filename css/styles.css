@@ -762,7 +762,9 @@ img {
 }
 .checkbox-icon:hover,
 .checkbox-icon:focus {
-  border: var(--iris);
+  border: none;
+  background-color: var(--ocean);
+  fill: var(--cloud);
 }
 .check-mark {
   cursor: pointer;
@@ -777,10 +779,6 @@ img {
   width: 360px;
 }
 .form-agree-box {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: var(--lightslate);
   display: block;
   align-items: center;
   justify-content: flex-start;
@@ -791,16 +789,16 @@ img {
 }
 form-agree-box-text {
   font-size: 12px;
-  font-weight: 400;
-  line-height: 16px;
-  letter-spacing: 0.48px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--lightslate);
+}
+.form-agree-box_link {
+  color: var(--iris, #4d5ae5);
   text-decoration-line: underline;
   transition-property: color, text-decoration-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.form-agree-box_link {
-  color: var(--iris, #4d5ae5);
 }
 .form-agree-box_link:hover,
 .form-agree-box_link:focus {
@@ -826,7 +824,7 @@ form-agree-box-text {
 }
 .form-button {
   display: block;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   padding: 16px 32px;
   border: none;
