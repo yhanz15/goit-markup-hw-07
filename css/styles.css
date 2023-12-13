@@ -592,6 +592,11 @@ img {
   align-items: center;
   margin-left: 16px;
   border: none;
+  color: var(--white);
+  font-weight: 500;
+  margin-bottom: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   border-radius: 4px;
   color: var(--white);
   background: var(--iris);
