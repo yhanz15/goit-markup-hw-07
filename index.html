@@ -471,7 +471,7 @@
           </svg>
         </button>
         <p class="form-header">Leave your contacts and we will call you back</p>
-        <form name="user-name" autocomplete="on" class="form-container list">
+        <form id="user-name" autocomplete="on" class="form-container list">
           <div class="positioning">
             <label class="form-label">
               <span class="form-label-text">Name</span>
@@ -479,14 +479,13 @@
               <div class="input-icon">
                 <input
                   type="text"
-                  <id="user-name"></id>
                   class="form-input"
                   name="user-name"
                   required
                 />
 
                 <svg class="form-input-icon" width="18" height="24">
-                  <use href="./images/icon.svg#person"></use>
+                  <use href="./images/icon.svg#name"></use>
                 </svg>
               </div>
               
@@ -497,7 +496,7 @@
                 <input
                   type="tel"
                   class="form-input"
-                  name="phone_number"
+                  name="phone-number"
                   required
                 />
                 <svg class="form-input-icon" width="18" height="24">
@@ -512,7 +511,7 @@
                 <input
                   type="email"
                   class="form-input"
-                  name="email_add"
+                  name="email-add"
                   required
                 />
                 <svg class="form-input-icon" width="18" height="24">
