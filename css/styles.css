@@ -790,7 +790,7 @@ img {
   color: var(--lightslate);
   display: block;
 }
-.naming {
+.text-input {
   position: relative;
 }
 .form-label-textarea {
