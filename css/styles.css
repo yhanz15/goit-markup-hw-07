@@ -818,27 +818,24 @@ img {
   position: absolute;
 }
 .checkbox-icon {
+  width: 16px;
+  height: 16px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  fill: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: transparent;
 }
 .checkbox-icon:hover,
 .checkbox-icon:focus {
   border: var(--iris);
 }
 .check-mark {
-  width: 16px;
-  height: 16px;
-  border-radius: 2px;
-
   cursor: pointer;
-  fill: transparent;
 }
 
 .commitment {
