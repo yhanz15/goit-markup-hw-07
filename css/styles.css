@@ -556,9 +556,13 @@ img {
   display: block;
   color: var(--white);
   font-weight: 500;
-  gap: 24px;
   margin-bottom: 16px;
 }
+
+.formal {
+  gap: 24px;
+}
+
 .footer-form-input {
   color: var(--white);
   width: 264px;
