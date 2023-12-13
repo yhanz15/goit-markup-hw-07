@@ -690,7 +690,6 @@ img {
 }
 .positioning {
   margin-bottom: 8px;
-  width: 360px;
 }
 
 .input-icon {
@@ -707,7 +706,10 @@ img {
 }
 .form-label-text {
   position: absolute;
-  top: -40px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--lightslate);
 }
 .form-input-icon {
   position: absolute;
@@ -794,6 +796,9 @@ form-agree-box-text {
   color: var(--lightslate);
 }
 .form-agree-box_link {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
   color: var(--iris, #4d5ae5);
   text-decoration-line: underline;
   transition-property: color, text-decoration-color;
@@ -812,7 +817,7 @@ form-agree-box-text {
   border-radius: 4px;
   width: 360px;
   height: 336px;
-  margin-top: 48px;
+  margin-top: -48px;
   /* margin-left: 24px;
   margin-right: 24px; */
 }
@@ -823,6 +828,7 @@ form-agree-box-text {
   width: 100%;
 }
 .form-button {
+  margin: auto;
   display: block;
   min-width: 169px;
   height: 56px;
