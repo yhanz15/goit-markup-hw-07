@@ -499,6 +499,7 @@
             </label>
             <div class="input-icon">
               <input
+                id="telephone"
                 type="tel"
                 class="form-input"
                 name="phone-number"
@@ -515,6 +516,7 @@
             </label>
             <div class="input-icon">
               <input
+                id="email"
                 type="email"
                 class="form-input"
                 name="email-add"
@@ -526,36 +528,40 @@
             </div>
           </div>
           <div class="commitment">
-            <label class="form-label-textarea">
+            <label for="user-comment" class="form-label-textarea">
               <span class="form-label-text">Comment</span>
               <textarea
-                name="comment"
+                id="user-comment"
+                name="user-comment"
                 class="form-textarea"
                 placeholder="Text input"
                 required
               ></textarea>
             </label>
-            <label class="form-agree-box">
-              <input
-                type="checkbox"
-                value="agree"
-                name="agreement"
-                class="checkbox"
-                required
-              />
-              <span class="checkbox-icon">
-                <svg class="check-mark">
-                  <use href="./images/icons.svg#check-mark"></use>
-                </svg>
-              </span>
-              <span class="form-agree-box_text">
-                I accept the terms and conditions of the &nbsp;<a
-                  href="#"
-                  class="form-agree-box_link"
-                  >Privacy Policy</a
-                >
-              </span>
-            </label>
+            <div class="checking">
+              <label class="form-agree-box">
+                <input
+                  id="user-privacy"
+                  type="checkbox"
+                  value="true"
+                  name="user-privacy"
+                  class="checkbox"
+                  required
+                />
+                <span class="checkbox-icon">
+                  <svg class="check-mark">
+                    <use href="./images/icons.svg#check-mark"></use>
+                  </svg>
+                </span>
+                <span class="form-agree-box_text">
+                  I accept the terms and conditions of the &nbsp;<a
+                    href="#"
+                    class="form-agree-box_link"
+                    >Privacy Policy</a
+                  >
+                </span>
+              </label>
+            </div>
           </div>
           <div class="form-button_container">
             <button type="submit" class="form-button">Send</button>
