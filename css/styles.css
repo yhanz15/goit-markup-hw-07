@@ -781,13 +781,17 @@ img {
   width: 360px;
 }
 .form-agree-box {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--lightslate);
   display: block;
   align-items: center;
   justify-content: flex-start;
   width: 360px;
   height: 16px;
   gap: 8px;
-  margin-bottom: 24px;
+  margin-bottom: 4px;
 }
 form-agree-box-text {
   font-size: 12px;
@@ -796,6 +800,7 @@ form-agree-box-text {
   color: var(--lightslate);
 }
 .form-agree-box_link {
+  align-items: center;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -817,7 +822,7 @@ form-agree-box-text {
   border-radius: 4px;
   width: 360px;
   height: 336px;
-  margin-top: -48px;
+  margin-top: 0;
   /* margin-left: 24px;
   margin-right: 24px; */
 }
@@ -874,15 +879,16 @@ form-agree-box-text {
 }
 
 .form-label {
-  margin-bottom: 4px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--lightslate);
   display: block;
+  margin-top: -16px;
+  margin-left: 24px;
 }
 /* ? */
-.modal-form {
+/* .modal-form {
   display: block;
   width: 360px;
   flex-direction: column;
@@ -915,7 +921,7 @@ form-agree-box-text {
   font-family: inherit;
   font-size: 16px;
   outline: none;
-}
+} */
 
 /*portfolio*/
 
