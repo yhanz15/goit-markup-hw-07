@@ -777,6 +777,10 @@ img {
   width: 360px;
 }
 .form-agree-box {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--lightslate);
   display: block;
   align-items: center;
   justify-content: flex-start;
@@ -785,12 +789,7 @@ img {
   gap: 8px;
   margin-bottom: 24px;
 }
-.form-agree-box_text {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: var(--lightslate);
-}
+
 .form-agree-box_link {
   color: var(--iris, #4d5ae5);
   font-size: 12px;
