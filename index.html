@@ -531,15 +531,13 @@
             <label for="user-comment" class="form-label">
               <span class="form-label-text">Comment</span>
             </label>
-            <div class="input-icon">
-              <textarea
-                id="user-comment"
-                name="user-comment"
-                class="form-textarea"
-                placeholder="Text input"
-                required
-              ></textarea>
-            </div>
+            <textarea
+              id="user-comment"
+              name="user-comment"
+              class="form-textarea"
+              placeholder="Text input"
+              required
+            ></textarea>
           </div>
           <div class="checking">
             <!-- <label class="form-agree-box"> </label> -->
@@ -548,20 +546,21 @@
               type="checkbox"
               value="true"
               name="user-privacy"
-              class="checkbox"
+              class="checkbox visually-hidden"
               required
             />
-            <span class="checkbox-icon">
+            <!-- <span class="checkbox-icon">
               <svg class="check-mark" width="10" height="8">
                 <use href="./images/icons.svg#check-mark"></use>
               </svg>
             </span>
-            <span class="form-agree-box_text">
+            <span > -->
+              <label class="form-agree-box_text">
               I accept the terms and conditions of the &nbsp;<a
                 href="#"
                 class="form-agree-box_link"
                 >Privacy Policy</a
-              >
+              ></label>
             </span>
           </div>
           <div class="form-button_container">
