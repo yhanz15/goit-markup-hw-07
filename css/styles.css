@@ -910,7 +910,7 @@ img {
   margin-bottom: 4px;
 } */
 
-.form-input {
+/* .form-input {
   display: block;
   padding-left: 38px;
   border: 1px solid #2a2a2a;
@@ -918,7 +918,9 @@ img {
   font-family: inherit;
   font-size: 12px;
   outline: none;
-}
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  outline: transparent;
+} */
 
 /*portfolio*/
 
