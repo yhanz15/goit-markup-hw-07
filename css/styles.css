@@ -633,7 +633,7 @@ img {
 }
 .modal {
   position: absolute;
-  padding: 72px 24px 24px;
+  padding: 72px 24px 24px 24px;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%) scale(1);
@@ -749,7 +749,7 @@ img {
   fill: var(--cloud);
   background-color: var(--ocean);
 }
-.checkbox-icon {
+.check-mark {
   width: 16px;
   height: 16px;
   display: inline-flex;
@@ -768,7 +768,7 @@ img {
   background-color: var(--ocean);
   fill: var(--cloud);
 }
-.check-mark {
+.checkbox-icon {
   cursor: pointer;
   font-size: 12px;
   line-height: 1.17;
@@ -863,8 +863,7 @@ img {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-input-icon:focus,
-.form-input-icon:hover,
-.form-input-icon:active {
+.form-input-icon:hover {
   fill: var(--iris);
 }
 
