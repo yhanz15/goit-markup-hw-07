@@ -15,7 +15,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>GOIT Homework 06</title>
+    <title>GOIT Homework 07</title>
   </head>
   <body>
     <header class="header">
@@ -49,17 +49,117 @@
         <address class="navigation contacts">
           <ul class="heading list">
             <li>
-              <a class="address-head link" href="mailto:info@devstudio.com">
+              <a class="address-head link" href="mailto:info@devstudio.com" target="_blank"
+              rel="noopener noreferrer">
                 info@devstudio.com
               </a>
             </li>
             <li>
-              <a class="address-head link" href="tel:+110001111111">
+              <a class="address-head link" href="tel:+110001111111" target="_blank"
+              rel="noopener noreferrer">
                 +11 (000) 111-1-11
               </a>
             </li>
           </ul>
         </address>
+        <button
+        class="menu-toggle js-open-menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg class="menu-icon" width="32" height="32">
+          <use href="./images/icons.svg#hamburger-open"></use>
+        </svg>
+      </button>
+      <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="menu-toggle hamburger-close-button js-close-menu">
+          <svg class="menu-icon" width="32" height="32">
+            <use href="./images/icons.svg#hamburger-close"></use>
+          </svg>
+        </button>
+        <ul class="hamburger-menu-list list">
+          <li class="hamburger-menu-item">
+            <a href="./index.html" class="hamburger-menu-link link menu-active"
+              >Studio</a
+            >
+          </li>
+          <li class="hamburger-menu-item">
+            <a href="./portfolio.html" class="hamburger-menu-link link"
+              >Portfolio</a
+            >
+          </li>
+          <li class="hamburger-menu-item">
+            <a href="#" class="hamburger-menu-link link">Contacts</a>
+          </li>
+        </ul>
+        <div class="hamburger-wrapper">
+          <address class="hamburger-address">
+          <ul class="hamburger-address-list list">
+            <li class="hamburger-address-item">
+            <a
+              href="tel:+110001111111"
+              class="hamburger-address-link highlight link"
+              target="_blank"
+              rel="noopener noreferrer"
+              >+11 (000) 111-11-11</a
+            >
+            </li>
+            <li class="hamburger-address-item">
+            <a
+              href="mailto:info@devstudio.com"
+              class="hamburger-address-link link"
+              target="_blank"
+              rel="noopener noreferrer"
+              >info@devstudio.com</a
+            >
+            </li>
+          </ul>
+          </address>
+        
+          <ul class="hamburger-social-list list">
+          <li class="hamburger-social-item">
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hamburger-social-link link"
+              ><svg class="hamburger-social-icon" width="16" height="16">
+                <use href="./images/icons.svg#instagram"></use></svg
+            ></a>
+          </li>
+          <li class="hamburger-social-item">
+              <a
+              href="https://www.twitter.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hamburger-social-link link"
+              ><svg class="hamburger-social-icon" width="16" height="16">
+                <use href="./images/icons.svg#twitter"></use></svg
+            ></a>
+          </li>
+          <li class="hamburger-social-item">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hamburger-social-link link"
+              ><svg class="hamburger-social-icon" width="16" height="16">
+                <use href="./images/icons.svg#facebook"></use></svg
+            ></a>
+          </li>
+          <li class="hamburger-social-item">
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hamburger-social-link link"
+              ><svg class="hamburger-social-icon" width="16" height="16">
+                <use href="./images/icons.svg#linkedin"></use></svg>
+              </a>
+          </li>
+          </ul>
+        </div>
+      </div>
       </div>
     </header>
     <main>
@@ -180,28 +280,36 @@
                 <p class="paragraph">Product Designer</p>
                 <ul class="team-social-list list">
                   <li class="footer-socials-item">
-                    <a href="#" class="team-social-link">
+                    <a href="https://www.instagram.com/"
+                    target="_blank"
+                    rel="noopener noreferrer" class="team-social-link">
                       <svg class="footer-socials-svg" width="16" height="16">
                         <use href="./images/icons.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="footer-socials-item">
-                    <a href="#" class="team-social-link">
+                    <a href="https://www.twitter.com/"
+                    target="_blank"
+                    rel="noopener noreferrer" class="team-social-link">
                       <svg class="footer-socials-svg" width="16" height="16">
                         <use href="./images/icons.svg#twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="footer-socials-item">
-                    <a href="#" class="team-social-link">
+                    <a href="https://www.facebook.com/"
+                    target="_blank"
+                    rel="noopener noreferrer" class="team-social-link">
                       <svg class="footer-socials-svg" width="16" height="16">
                         <use href="./images/icons.svg#facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="footer-socials-item">
-                    <a href="#" class="team-social-link">
+                    <a href="https://www.linkedin.com/"
+                    target="_blank"
+                    rel="noopener noreferrer" class="team-social-link">
                       <svg class="footer-socials-svg" width="16" height="16">
                         <use href="./images/icons.svg#linkedin"></use>
                       </svg>
@@ -222,28 +330,36 @@
                 <p class="paragraph">Frontend Developer</p>
                 <ul class="team-social-list list">
                   <li class="footer-socials-item">
-                    <a href="#" class="team-social-link">
+                    <a href="https://www.instagram.com/"
+                    target="_blank"
+                    rel="noopener noreferrer" class="team-social-link">
                       <svg class="footer-socials-svg" width="16" height="16">
                         <use href="./images/icons.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="footer-socials-item">
-                    <a href="#" class="team-social-link">
+                    <a href="https://www.twitter.com/"
+                    target="_blank"
+                    rel="noopener noreferrer" class="team-social-link">
                       <svg class="footer-socials-svg" width="16" height="16">
                         <use href="./images/icons.svg#twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="footer-socials-item">
-                    <a href="#" class="team-social-link">
+                    <a href="https://www.facebook.com/"
+                    target="_blank"
+                    rel="noopener noreferrer" class="team-social-link">
                       <svg class="footer-socials-svg" width="16" height="16">
                         <use href="./images/icons.svg#facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="footer-socials-item">
-                    <a href="#" class="team-social-link">
+                    <a href="https://www.linkedin.com/"
+                    target="_blank"
+                    rel="noopener noreferrer" class="team-social-link">
                       <svg class="footer-socials-svg" width="16" height="16">
                         <use href="./images/icons.svg#linkedin"></use>
                       </svg>
@@ -264,28 +380,37 @@
                 <p class="paragraph">Marketing</p>
                 <ul class="team-social-list list">
                   <li class="footer-socials-item">
-                    <a href="#" class="team-social-link">
+                    <a href="https://www.instagram.com/"
+                    target="_blank"
+                    rel="noopener noreferrer" class="team-social-link">
                       <svg class="footer-socials-svg" width="16" height="16">
                         <use href="./images/icons.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="footer-socials-item">
-                    <a href="#" class="team-social-link">
+                    <a hhref="https://www.twitter.com/"
+                    target="_blank"
+                    rel="noopener noreferrer" class="team-social-link">
                       <svg class="footer-socials-svg" width="16" height="16">
                         <use href="./images/icons.svg#twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="footer-socials-item">
-                    <a href="#" class="team-social-link">
+                    <a href="https://www.facebook.com/"
+                    target="_blank"
+                    rel="noopener noreferrer" class="team-social-link">
                       <svg class="footer-socials-svg" width="16" height="16">
                         <use href="./images/icons.svg#facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="footer-socials-item">
-                    <a href="#" class="team-social-link">
+                    <a  href="https://www.linkedin.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="team-social-link">
                       <svg class="footer-socials-svg" width="16" height="16">
                         <use href="./images/icons.svg#linkedin"></use>
                       </svg>
@@ -306,28 +431,36 @@
                 <p class="paragraph">UI Designer</p>
                 <ul class="team-social-list list">
                   <li class="footer-socials-item">
-                    <a href="#" class="team-social-link">
+                    <a href="https://www.instagram.com/"
+                    target="_blank"
+                    rel="noopener noreferrer" class="team-social-link">
                       <svg class="footer-socials-svg" width="16" height="16">
                         <use href="./images/icons.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="footer-socials-item">
-                    <a href="#" class="team-social-link">
+                    <a href="#" href="https://www.twitter.com/"
+                    target="_blank"
+                    rel="noopener noreferrer" class="team-social-link">
                       <svg class="footer-socials-svg" width="16" height="16">
                         <use href="./images/icons.svg#twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="footer-socials-item">
-                    <a href="#" class="team-social-link">
+                    <a href="https://www.facebook.com/"
+                    target="_blank"
+                    rel="noopener noreferrer" class="team-social-link">
                       <svg class="footer-socials-svg" width="16" height="16">
                         <use href="./images/icons.svg#facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="footer-socials-item">
-                    <a href="#" class="team-social-link">
+                    <a href="https://www.linkin.com/"
+                    target="_blank"
+                    rel="noopener noreferrer" class="team-social-link">
                       <svg class="footer-socials-svg" width="16" height="16">
                         <use href="./images/icons.svg#linkedin"></use>
                       </svg>
@@ -409,28 +542,36 @@
           <p class="footer-socials-text">Social media</p>
           <ul class="footer-list list">
             <li class="footer-socials-item">
-              <a href="#" class="footer-socials-link">
+              <a href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer" class="footer-socials-link">
                 <svg class="footer-socials-svg" width="24" height="24">
                   <use href="./images/icons.svg#instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-socials-item">
-              <a href="#" class="footer-socials-link">
+              <a href="https://www.twitter.com/"
+              target="_blank"
+              rel="noopener noreferrer" class="footer-socials-link">
                 <svg class="footer-socials-svg" width="24" height="24">
                   <use href="./images/icons.svg#twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-socials-item">
-              <a href="#" class="footer-socials-link">
+              <a href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer" class="footer-socials-link">
                 <svg class="footer-socials-svg" width="24" height="24">
                   <use href="./images/icons.svg#facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-socials-item">
-              <a href="#" class="footer-socials-link">
+              <a href="https://www.linkin.com/"
+              target="_blank"
+              rel="noopener noreferrer" class="footer-socials-link">
                 <svg class="footer-socials-svg" width="24" height="24">
                   <use href="./images/icons.svg#linkedin"></use>
                 </svg>
