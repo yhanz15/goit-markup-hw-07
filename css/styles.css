@@ -325,7 +325,7 @@ body {
 
 .highlight {
   color: var(--iris, #4d5ae5);
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.72px;
@@ -334,7 +334,7 @@ body {
 .hamburger-social-list {
   display: flex;
   justify-content: start;
-  gap: 60px;
+  gap: 50px;
 }
 
 .hamburger-social-link {
