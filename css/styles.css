@@ -262,11 +262,10 @@ body {
 .hamburger-close-button {
   position: absolute;
   top: 24px;
-  right: 24px;
+  right: 104px;
+  height: 32px;
+  width: 32px;
   padding: 0;
-  width: 30px;
-  height: 30px;
-
   background-color: var(--cornflower, #e7e9fc);
   color: var(--navyblue, #2e2f42);
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -317,6 +316,7 @@ body {
 }
 
 .hamburger-address {
+  margin-top: -300px;
   color: var(--slate, #434455);
   font-size: 20px;
   font-style: normal;
@@ -351,7 +351,8 @@ body {
 
 .hamburger-social-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
+  gap: 80px;
 }
 
 .hamburger-social-link {
