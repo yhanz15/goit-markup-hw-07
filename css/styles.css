@@ -33,30 +33,6 @@ p {
   margin: 0;
 }
 
-:root {
-  --iris: #4d5ae5;
-  --ocean: #404bbf;
-  --navyblue: #2e2f42;
-  --cloud: #f4f4fd;
-  --slate: #434455;
-  --cornflower: #e7e9fc;
-  --white: #ffffff;
-  --grey: rgba(46, 47, 66, 0.7);
-  --lightslate: #8e8f99;
-  --dairy: #fcfcfc;
-  --navyblue-modal: rgba(46, 47, 66, 0.4);
-}
-
-* {
-  margin: o;
-  padding: 0;
-  box-sizing: border-box;
-}
-*,
-*::after,
-*::before {
-  box-sizing: inherit;
-}
 body {
   font-family: Roboto, sans-serif;
   font-size: 16px;
