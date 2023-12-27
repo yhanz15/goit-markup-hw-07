@@ -579,6 +579,7 @@ body {
 }
 
 .feature-description {
+  text-align: justify;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -586,6 +587,7 @@ body {
   color: var(--slate, #434455);
 
   @media screen and (min-width: 768px) {
+    text-align: justify;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -593,6 +595,7 @@ body {
   }
 
   @media screen and (min-width: 1158px) {
+    text-align: justify;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -704,6 +707,7 @@ body {
 }
 
 .team-name {
+  color: var(--navyblue);
   width: 264px;
   font-weight: 500;
   font-size: 20px;
@@ -1380,6 +1384,17 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+
+  @media screen and (min-width: 768px) {
+    column-gap: 24px;
+    row-gap: 48px;
+    align-items: flex-start;
+  }
+  @media screen and (min-width: 1158px) {
+    column-gap: 24px;
+    row-gap: 48px;
+    align-items: flex-start;
+  }
 }
 
 .project-card {
