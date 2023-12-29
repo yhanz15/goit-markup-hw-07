@@ -271,7 +271,7 @@ body {
 .hamburger-menu-list {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 37px;
 }
 
 .hamburger-menu-item {
