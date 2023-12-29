@@ -334,7 +334,7 @@ body {
 .hamburger-social-list {
   display: flex;
   justify-content: start;
-  gap: 55px;
+  gap: 50px;
 }
 
 .hamburger-social-link {
