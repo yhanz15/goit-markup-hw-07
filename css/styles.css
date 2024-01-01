@@ -1181,12 +1181,6 @@ body {
 .privacy {
   display: block;
 }
-.checkbox {
-  border: none;
-  position: absolute;
-  fill: var(--cloud);
-  background-color: var(--ocean);
-}
 
 .check-mark {
   width: 16px;
@@ -1201,8 +1195,7 @@ body {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: transparent;
 }
-.check-mark:hover,
-.check-mark:focus {
+.checkbox:checked + .form-agree-box > .check-mark {
   border: none;
   background-color: var(--ocean);
   fill: var(--cloud);
