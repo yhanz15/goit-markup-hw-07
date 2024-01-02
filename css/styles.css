@@ -239,6 +239,10 @@ body {
   @media screen and (min-width: 768px) {
     display: none;
   }
+
+  @media screen and (min-width: 1158px) {
+    display: none;
+  }
 }
 
 .hamburger-close-button {
@@ -441,8 +445,8 @@ body {
   color: var(--white, #fff);
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
-  letter-spacing: 0.72px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
