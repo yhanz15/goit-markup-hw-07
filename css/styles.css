@@ -637,9 +637,8 @@ body {
     width: calc((100% - 72px) / 3);
   }
 }
-
+/* section 4 */
 .section-title {
-  padding-top: -120px;
   color: var(--navyblue);
   font-weight: 700;
   font-size: 36px;
@@ -652,22 +651,12 @@ body {
 .section-team {
   background-color: var(--cloud, #f4f4fd);
   margin: auto;
-  padding: 0;
-
-  @media screen and (min-width: 768px) and (max-width: 1157px) {
-    padding-top: 120px;
-  }
-
-  @media screen and (min-width: 1158px) {
-    padding-top: 120px;
-  }
 }
-/* section 4 */
+
 .team-members {
   display: flex;
   flex-direction: column;
   gap: 72px;
-  padding-bottom: 120px;
 
   @media screen and (min-width: 768px) and (max-width: 1157px) {
     display: flex;
@@ -770,7 +759,7 @@ body {
 .team-social-icon {
   fill: currentColor;
 }
-/* Customers Hw5-7 */
+/* Customers Hw5-7  Section 5*/
 .customer-list {
   display: flex;
   flex-wrap: wrap;
