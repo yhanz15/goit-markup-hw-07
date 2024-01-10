@@ -220,9 +220,10 @@ body {
 }
 
 .header-address-item {
-  font-size: 24px;
+  font-size: 16px;
   font-style: normal;
-  line-height: 24px;
+  font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate, #434455);
 }
