@@ -561,7 +561,7 @@ body {
 }
 
 .footer-text {
-  text-align: justify;
+  text-align: center;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -727,10 +727,10 @@ body {
 
   @media screen and (min-width: 320px) and (max-width: 427px) {
     width: 310px;
-    margin-top: -122px;
+    margin-top: -90px;
   }
   @media screen and (min-width: 428px) and (max-width: 1157px) {
-    margin-top: -122px;
+    margin-top: -90px;
     width: 408px;
   }
 }
