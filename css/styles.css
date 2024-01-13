@@ -390,14 +390,8 @@ body {
 /* SECTION 3 */
 
 .section-no-top-padding {
-  padding-top: 0;
-}
-
-.section-no-top-padding {
   display: none;
 }
-
-/* SECTION 4 */
 
 .section-title {
   color: var(--navyblue);
@@ -408,6 +402,8 @@ body {
   text-align: center;
   margin-bottom: 72px;
 }
+
+/* SECTION 4 */
 
 .section-team {
   background-color: var(--cloud, #f4f4fd);
@@ -729,7 +725,7 @@ body {
     width: 310px;
     margin-top: 10px;
   }
- 
+
   @media screen and (min-width: 428px) and (max-width: 1157px) {
     margin-top: 10px;
     width: 408px;
@@ -1543,6 +1539,7 @@ body {
   /* SECTION 3 */
 
   .section-no-top-padding {
+    padding-top: 0;
     display: block;
   }
 

@@ -657,7 +657,7 @@ body {
     width: calc((100% - 72px) / 3);
   }
 }
-/* section 4 */
+
 .section-title {
   color: var(--navyblue);
   font-weight: 700;
@@ -667,6 +667,8 @@ body {
   text-align: center;
   margin-bottom: 72px;
 }
+
+/* section 4 */
 
 .section-team {
   background-color: var(--cloud, #f4f4fd);
