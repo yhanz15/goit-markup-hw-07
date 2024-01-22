@@ -1473,17 +1473,27 @@ body {
 
   .hero {
     padding: 188px 0;
-    background-image: url(../images/dark-hero-bg.png),
+    /* background-image: url(../images/dark-hero-bg.png),
       url(../images/hero-bg-d.jpg),
-      linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
+      linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)); */
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg-d.jpg);
     background-size: 1440px, 1440px;
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(../images/dark-hero-bg.png),
+      /* background-image: url(../images/dark-hero-bg.png),
         url(../images/hero-bg-d@2x.jpg),
-        linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
+        linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)); */
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-bg-d@2x.jpg);
     }
   }
 
